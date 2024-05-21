@@ -1,0 +1,98 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 90vh;
+  font-family: sans-serif;
+
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  height: 4rem;
+  align-items: center;
+  
+}
+.inputBox > input{
+  width:400px;
+  padding:5px;
+  border-radius: 15px;  
+}   
+main {
+  margin-top: 42px;
+}
+
+.BrandImage {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.childBtm {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height:2rem;
+  gap: 5px;
+ 
+}
+.inputBox{
+  display:flex;
+  width: 582px;
+  height:46px;
+  justify-content: center;
+  border-radius: 25px;
+  border:1px solid black;
+  align-items: center;
+  
+}
+
+.btm{
+  width:60px;
+  
+}
+.mainBtmText {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+
+}
+
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.footerDiv1 {
+  width: 100%;
+  padding:15px;
+}
+
+.footerDiv2 {
+  display: flex;
+  width: 100%;
+  padding:15px;
+  justify-content: space-between;
+  
+}
